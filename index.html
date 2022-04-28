@@ -13,15 +13,35 @@ Modified:-->
       div {
         background-color: #ebebeb;
         width: auto;
-        height: 600px;
+        height: auto;
         border: 2px solid black;
         padding: 50px;
-        margin: 30px;
+        margin: 50px;
+        
       }
-      aside {
-        padding-left: 30px;
-        margin-left: 30px;
-        float: right;
+      .center {
+        display: flex;
+      }
+
+      .center > div {
+        width: 100%;
+        border: 0;
+        padding: 0;
+        margin: 0;
+      }
+
+      .center > img {
+        height: 100%;
+      }
+
+      @media only screen and (max-width: 850px) {
+        .center {
+          flex-direction: column;
+        }
+
+        .center > img {
+          margin: 0 auto;
+        }
       }
     </style>
   </head>
@@ -42,41 +62,41 @@ Modified:-->
     <hr color="black" />
 
     <main>
-      <div>
-        <aside>
-          <img
-            src="467aeb16-3fe0-492c-9f1c-d950eb31cf7c.jpg"
-            alt="Photo of JF  Geno Obonde "
-            width="424"
-            height="600"
-          />
-        </aside>
-        <h1>JF GENO</h1>
-        <h2>Obonde</h2>
-
-        <p>
-          I love Sports, Art, Computers and Games i spen most of my time on<br />
-          working on my computer makeing games or wedsites, but if i was not
-          on<br />
-          my computer i whould be outside playing socer, basketball or
-          bicking<br />
-          and if i have free time i paint or photoshop.<br />
-        </p>
-
-        <p>
-          <img
+      <div class="center">
+        <div>
+          <h1>JF GENO</h1>
+          <h2>Obonde</h2>
+          
+          <p>
+            I love Sports, Art, Computers and Games i spen most of my time on<br />
+            working on my computer makeing games or wedsites, but if i was not
+            on<br />
+            my computer i whould be outside playing socer, basketball or
+            bicking<br />
+            and if i have free time i paint or photoshop.<br />
+          </p>
+          
+          <p>
+            <img
             src="Black-Github-Logo-PNG-Image-Background.png"
             alt="The github logo"
             width="50"
             height="50"
-          />
-          <span style="color: rgb(12, 89, 89)">genojfobonde@gmail.com</span>
-        </p>
+            />
+            <span style="color: rgb(12, 89, 89)">genojfobonde@gmail.com</span>
+          </p>
+        </div>
+        <img
+          src="467aeb16-3fe0-492c-9f1c-d950eb31cf7c.jpg"
+          alt="Photo of JF  Geno Obonde "
+          width="424"
+          height="600"
+        />
       </div>
     </main>
 
     <footer>
-      <hr />
+      <hr style="margin-bottom: auto;" />
       <h5 style="text-align: center">
         &#169;2022 JF Geno Obonde All Rights Reserved
       </h5>
