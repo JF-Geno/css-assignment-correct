@@ -17,6 +17,9 @@
         margin: 50px auto 0;
         
      }
+     image{
+       flex-shrink: inherit;
+     }
 
     
     section > div {
@@ -30,11 +33,29 @@
      }
      #left{
       width: 50%;
+      margin-right: 20px;
      }
      #right{
       width: 50%;
       float: right;
      }
+     p > p{
+       line-height:24px ;
+       font-size: 16px;
+       font-family: Georgia, 'Times New Roman', Times, serif ;
+       flex: auto;
+     }
+
+     @media only screen and (max-width: 850px) {
+        .center {
+          flex-direction: column;
+        }
+
+        .center > img {
+          margin: 0 auto;
+        }
+      }
+
   </style>
 
   <body>
@@ -64,20 +85,20 @@
           
           <p>
      <b> Profile</b><br>
-     <b> I am:</b><br>
+     <b> <u>I am:</u></b><br>
       
       15 years old<br>
       In high school <br>
       A Christian<br>
       
-     <b> My Hobbies:</b><br>
+     <b> <u>My Hobbies:</u></b><br>
       
       Sports – Swimming and Basketball<br>
       Computer Work – Coding and Game Creation <br>
       Arts and Artwork<br>
       Cooking new food recipes<br>
       
-     <b> Contact</b><br>
+     <b> <u>Contact:</u></b><br>
      <b> Phone:</b><br>
       +1 431 778 7844<br>
       
@@ -85,21 +106,21 @@
       201 Victor Lewis Drive 2306,<br> 
       Winnipeg, MB R3P 2A5<br>
       
-     <b> EMAIL:</b><br>
+     <b> Email:</b><br>
       obondejfgeno@gmail.com<br>
       </p>
         </div>
         <div id="right">
     
           <p>
-           <h2> <b>Jf Geno Obonde</b></h2><br>
+           <h1> <b>Jf Geno Obonde</b></h1 ><br>
          <b> EDUCATION</b><br>
-         <b> Shaftesbury High school</b><br>
+         <b> <u>Shaftesbury High school</u></b><br>
           2020 – Current<br>
           [Math, EAL, Science, Physics, Career Development.]<br>
-         <b> PTEC [Pembina Trails Early College]</b><br>
+         <b> <u>PTEC [Pembina Trails Early College]</u></b><br>
           2020 – Current [Web Design, Interactive website, Business Innovations, software Development, Computer Science.]<br>
-         <b> WORK EXPERIENCE</b><br>
+         <b> <u>WORK EXPERIENCE</u></b><br>
           [Camp Assiniboine]  [Camp Staff-Teen Volunteer]<br>
           [Partly July-August 2021]<br>
           [Teen volunteer and maintenance work] <br>
