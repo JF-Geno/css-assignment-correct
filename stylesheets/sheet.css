@@ -3,17 +3,39 @@ body {
 }
 
 nav {
-  display: inline-block;
-
-  margin: 0 20px;
+  margin: -26px -11px 0;
 }
 
 nav ul {
   list-style-type: none;
-
+  margin: 0;
   padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
 .nav-link {
   display: inline-block;
+}
+
+.typography {
+  line-height: 24px;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  flex: auto;
+}
+
+li {
+  float: left;
+}
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
