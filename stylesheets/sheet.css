@@ -36,11 +36,21 @@ li a {
   display: block;
   color: #cbaa72;
   text-align: center;
-  padding: 14px 16px;
+  padding: 17px 16px;
   text-decoration: none;
 }
 
 .logo {
   float: left;
-  height: 40px;
+  background-color: black;
+  color: #cbaa72;
+  font-family: "Rockwell", cursive;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  padding-top: 14px;
+  padding-right: 16px;
+  padding-bottom: 14px;
+  padding-left: 16px;
+  margin: 0;
 }
